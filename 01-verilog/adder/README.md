@@ -96,3 +96,18 @@ Cout = ~Cin·a·b + Cin·~a·b + Cin·a·~b + Cin·a·b
 
 ### 8-bit Full Adder
 ![8bit Full Adder](adder_schematic/full_adder_8bit.png)
+
+
+
+# 시뮬레이션 결과
+
+### 8-bit Full Adder 시뮬레이션
+
+**시뮬레이션 1**
+![8bit Full Adder sim1](full_adder_8bit_sim/full_adder_8bit_sim1.png)
+
+**시뮬레이션 2**
+![8bit Full Adder sim2](full_adder_8bit_sim/full_adder_8bit_sim2.png)
+
+**시뮬레이션 3**
+![8bit Full Adder sim3](full_adder_8bit_sim/full_adder_8bit_sim3.png)
