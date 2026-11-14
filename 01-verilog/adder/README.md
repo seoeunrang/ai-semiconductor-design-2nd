@@ -5,10 +5,14 @@ haif adder -> full adder -> 4bit full adder -> 8bit full adder 순으로 단계�
 
 
 
-![adder_schematic](half_adder.png)
+### Half Adder
+![Half Adder](adder_schematic/half_adder.png)
 
-![adder_schematic](full_adder.png)
+### Full Adder
+![Full Adder](adder_schematic/full_adder.png)
 
-![adder_schematic](full_adder_4bit.png)
+### 4-bit Full Adder
+![4bit Full Adder](adder_schematic/full_adder_4bit.png)
 
-![adder_schematic](full_adder_8bit.png)
+### 8-bit Full Adder
+![8bit Full Adder](adder_schematic/full_adder_8bit.png)
