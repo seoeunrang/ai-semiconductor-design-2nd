@@ -75,5 +75,17 @@ Basys3의 FND는 **4자리 Common Anode** 방식입니다. 각 자리는 세그�
 
 DP(소수점)는 항상 1(소등)입니다.
 
+### schematic
+![full_adder_4bit_fnd_schematic](full_adder_4bit_fnd_schematic/full_adder_4bit_fnd_schematic.png)
 
+![full_adder_4bit_fnd_bcd_schematic](full_adder_4bit_fnd_schematic/full_adder_4bit_fnd_bcd.png)
+
+**시뮬레이션 1**
+![8bit Full Adder sim1](full_adder_4bit_fnd_sim/full_adder_4bit_fnd_sim.png)
+
+**시뮬레이션 2**
+![8bit Full Adder sim2](full_adder_4bit_fnd_sim/full_adder_4bit_fnd_sim1.png)
+
+**시뮬레이션 3**
+![8bit Full Adder sim3](full_adder_4bit_fnd_sim/full_adder_4bit_fnd_sim2.png)
 
