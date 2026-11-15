@@ -84,8 +84,8 @@ DP(소수점)는 항상 1(소등)입니다.
 ![8bit Full Adder sim1](full_adder_4bit_fnd_sim/full_adder_4bit_fnd_sim.png)
 
 **시뮬레이션 2**
-![8bit Full Adder sim2](full_adder_4bit_fnd_sim/full_adder_4bit_fnd_sim1.png)
+![8bit Full Adder sim2](full_adder_4bit_fnd_sim/full_adder_4bit_fnd_sim2.png)
 
 **시뮬레이션 3**
-![8bit Full Adder sim3](full_adder_4bit_fnd_sim/full_adder_4bit_fnd_sim2.png)
+![8bit Full Adder sim3](full_adder_4bit_fnd_sim/full_adder_4bit_fnd_sim3.png)
 
