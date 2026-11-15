@@ -105,7 +105,25 @@ DP(소수점)는 항상 1(소등)입니다.
 ![8bit Full Adder sim2](full_adder_4bit_fnd_sim/full_adder_4bit_fnd_sim2.png)
 
 **시뮬레이션 3**
-![8bit Full Adder sim3](full_adder_4bit_fnd_sim/full_adder_4bit_fnd_sim3.png)
+![8bit Full Adder sim3](full_adder_4bit_fnd_sim/full_adder_4bit_fnd_sim3.png) 
+
+
+## 보드 동작 확인 (Basys3) - 4bit
+
+스위치로 a, b(4bit)를 입력하고, 합 `s`가 FND 오른쪽 첫째 자리(AN0)에 표시되는 것을 확인했습니다.
+
+| # | a | b | cin | 합 (10진) | FND 표시 |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| 1 | (입력값) | (입력값) | 0 | 2 | `2` |
+| 2 | (입력값) | (입력값) | 0 | 6 | `6` |
+| 3 | (입력값) | (입력값) | 0 | 5 | `5` |
+| 4 | (입력값) | (입력값) | 0 | 14 | `E` |
+
+- 합이 10 이상(14)이면 BCD 디코더가 **A~F(16진)** 로 표시합니다. (14 → `E`)
+- 오른쪽 첫째 자리만 켜지는 것은 `fnd_com = 4'b1110` 고정 때문입니다.
+
+![4bit 보드 동작 확인](full_adder_fnd_board/full_adder_4bit_fnd_board.jpg)
+
 
 
 
@@ -211,7 +229,7 @@ FND는 한 번에 한 자리씩 보여주기 때문에, **어떤 자리를 볼�
 
 
 ## 스케메틱
-![8bit adder FND](adder_fnd_img/schematic_8bit.png)
+![8bit adder FND](full_adder_fnd_board/full_adder_8bit_fnd_schematic.png)
 
 ## 보드 동작 확인 (Basys3)
 
@@ -233,36 +251,8 @@ FND는 한 번에 한 자리씩 보여주기 때문에, **어떤 자리를 볼�
 
 
 
-### schematic
-![full_adder_4bit_fnd_schematic](full_adder_4bit_fnd_schematic/full_adder_4bit_fnd_schematic.png)
-
-![full_adder_4bit_fnd_bcd_schematic](full_adder_4bit_fnd_schematic/full_adder_4bit_fnd_bcd.png)
-
-**시뮬레이션 1**
-![8bit Full Adder sim1](full_adder_4bit_fnd_sim/full_adder_4bit_fnd_sim.png)
-
-**시뮬레이션 2**
-![8bit Full Adder sim2](full_adder_4bit_fnd_sim/full_adder_4bit_fnd_sim2.png)
-
-**시뮬레이션 3**
-![8bit Full Adder sim3](full_adder_4bit_fnd_sim/full_adder_4bit_fnd_sim3.png)
 
 
-## 보드 동작 확인 (Basys3) - 4bit
-
-스위치로 a, b(4bit)를 입력하고, 합 `s`가 FND 오른쪽 첫째 자리(AN0)에 표시되는 것을 확인했습니다.
-
-| # | a | b | cin | 합 (10진) | FND 표시 |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| 1 | (입력값) | (입력값) | 0 | 2 | `2` |
-| 2 | (입력값) | (입력값) | 0 | 6 | `6` |
-| 3 | (입력값) | (입력값) | 0 | 5 | `5` |
-| 4 | (입력값) | (입력값) | 0 | 14 | `E` |
-
-- 합이 10 이상(14)이면 BCD 디코더가 **A~F(16진)** 로 표시합니다. (14 → `E`)
-- 오른쪽 첫째 자리만 켜지는 것은 `fnd_com = 4'b1110` 고정 때문입니다.
-
-![4bit 보드 동작 확인](full_adder_fnd_board/full_adder_4bit_fnd_board.jpg)
 
 
 ## 보드 동작 확인 (Basys3) - 8bit
